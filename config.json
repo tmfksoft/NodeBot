@@ -1,0 +1,13 @@
+{
+   "host":"irc.smallirc.in",
+   "port":"6667",
+   "ssl":false,
+   
+   "nick":"mewtwo",
+   "alt":"mew2",
+   "username":"mew",
+   "realname":"NodeJS mew bot",
+   "password":"",
+   
+   "channels":["#tmfksoft"],
+}
