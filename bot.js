@@ -4,12 +4,15 @@ console.log("MewTwo Script Alive");
 lib = {};
 lib.fs = require('fs');
 lib.vm = require('vm');
+lib.net = require('net');
 
 modules = [];
 
 // Load Modules.
 require('./modules/logger.js');
 require('./modules/api.js');
+require('./modules/event.js');
+require('./modules/irc.js');
 
 
 // Start Bot.
@@ -46,6 +49,9 @@ lib.fs.readdir("./plugins/", function(err,files){
 								plugin.handlers = {};
 								plugins.push(plugin);
 								context.mew = new mewApi(cfg,plugin);
+								context.console = console;
+								context.User = User;
+								context.Channel = Channel;
 								plugin.vm = lib.vm.runInNewContext(code,context);
 								
 								
@@ -71,6 +77,11 @@ plugins.forEach(function(p){
 		});
 	}
 });
+Client = new IRC();
+Client.nick = "mewtwo";
+Client.username = "mew";
+Client.realname = "mew, The 2nd!";
+Client.connect({"host":"irc.smallirc.in"});
 
 process.on('exit',function(sig){
 	log.info("Process Closing with signal "+sig);

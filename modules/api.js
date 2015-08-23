@@ -10,10 +10,17 @@ mewApi = function(cfg,plugin){
 		fatal:function(str) { log.fatal(str,parent.self.name); }
 	}
 	// Events stuff.
-	this.Events = {
-		register:function(name,cb){
+	this.Event = {
+		on:function(name,cb){
 			if (typeof plugin.handlers[name.toLowerCase()] == "undefined") plugin.handlers[name.toLowerCase()] = [];
 			plugin.handlers[name.toLowerCase()].push(cb);
 		}
 	}
+	
+	// IRC Stuff
+	this.message = function(dest,msg){
+		Client.message(dest,msg,parent.self.name);
+	}
+	
+	this.irc = Client;
 }
