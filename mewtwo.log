@@ -1,138 +1,166 @@
- [1:13:34] [CORE] [INFO] MewTwo bot starting up!
- [1:13:34] [CORE] [INFO] Loading plugins
- [1:13:34] [CORE] [INFO] Enabling Plugins
- [1:13:34] [TestJS] [INFO] Loading plugin
- [1:13:34] [IRC] [INFO] Connecting to irc.smallirc.in:6667
- [1:13:34] [IRC] [INFO] Socket Connected!
- [1:13:34] [IRC] [INFO] [<] :ipv4.doctor.smallirc.in NOTICE AUTH :*** Looking up your hostname...
- [1:13:34] [IRC] [INFO] [<] :ipv4.doctor.smallirc.in NOTICE AUTH :*** Found your hostname (cached)
- [1:13:34] [IRC] [INFO] [<] :ipv4.doctor.smallirc.in 001 mewtwo :Welcome to the SmallIRC IRC Network mewtwo!mew@london.thomas-edwards.me
- [1:13:34] [IRC] [INFO] [<] :ipv4.doctor.smallirc.in 002 mewtwo :Your host is ipv4.doctor.smallirc.in, running version Unreal3.2.10.4
- [1:13:34] [IRC] [INFO] [<] :ipv4.doctor.smallirc.in 003 mewtwo :This server was created Sun Mar 1 2015 at 18:00:09 EST
- [1:13:34] [IRC] [INFO] [<] :ipv4.doctor.smallirc.in 004 mewtwo ipv4.doctor.smallirc.in Unreal3.2.10.4 iowghraAsORTVSxNCWqBzvdHtGpI lvhopsmntikrRcaqOALQbSeIKVfMCuzNTGjZ
- [1:13:34] [IRC] [INFO] [<] :ipv4.doctor.smallirc.in 005 mewtwo UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=200 CHANLIMIT=#:200 MAXLIST=b:60,e:60,I:60 NICKLEN=30 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 MAXTARGETS=20 :are supported by this server
- [1:13:34] [IRC] [INFO] [<] :ipv4.doctor.smallirc.in 005 mewtwo WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(qaohv)~&@%+ CHANMODES=beI,kfL,lj,psmntirRcOAQKVCuzNSMTGZ NETWORK=SmallIRC CASEMAPPING=ascii EXTBAN=~,qjncrRaT ELIST=MNUCT STATUSMSG=~&@%+ :are supported by this server
- [1:13:34] [IRC] [INFO] [<] :ipv4.doctor.smallirc.in 005 mewtwo EXCEPTS INVEX CMDS=KNOCK,MAP,DCCALLOW,USERIP,STARTTLS :are supported by this server
- [1:13:34] [IRC] [INFO] [<] :ipv4.doctor.smallirc.in 251 mewtwo :There are 1 users and 30 invisible on 3 servers
- [1:13:34] [IRC] [INFO] [<] :ipv4.doctor.smallirc.in 252 mewtwo 15 :operator(s) online
- [1:13:34] [IRC] [INFO] [<] :ipv4.doctor.smallirc.in 254 mewtwo 34 :channels formed
- [1:13:34] [IRC] [INFO] [<] :ipv4.doctor.smallirc.in 255 mewtwo :I have 15 clients and 2 servers
- [1:13:34] [IRC] [INFO] [<] :ipv4.doctor.smallirc.in 265 mewtwo 15 280 :Current local users 15, max 280
- [1:13:34] [IRC] [INFO] [<] :ipv4.doctor.smallirc.in 266 mewtwo 31 292 :Current global users 31, max 292
- [1:13:34] [IRC] [INFO] [<] :ipv4.doctor.smallirc.in 375 mewtwo :- ipv4.doctor.smallirc.in Message of the Day -
- [1:13:34] [CORE] [INFO] [MOTD] - 1/3/2015 17:54
- [1:13:34] [CORE] [INFO] [MOTD] -      _________.______________________
- [1:13:34] [CORE] [INFO] [MOTD] -     /   _____/|   \______   \_   ___ \
- [1:13:34] [CORE] [INFO] [MOTD] -     \_____  \ |   ||       _/    \  \/
- [1:13:34] [CORE] [INFO] [MOTD] -     /        \|   ||    |   \     \____
- [1:13:34] [CORE] [INFO] [MOTD] -    /_______  /|___||____|_  /\______  /
- [1:13:34] [CORE] [INFO] [MOTD] -            \/             \/        \/
- [1:13:34] [CORE] [INFO] [MOTD] -
- [1:13:34] [CORE] [INFO] [MOTD] - =========8<---- SmallIRC --------------------
- [1:13:34] [CORE] [INFO] [MOTD] -   Welcome to the SmallIRC Network, Feel free
- [1:13:34] [CORE] [INFO] [MOTD] -  to relax and chat with your friends on this
- [1:13:34] [CORE] [INFO] [MOTD] -                IRC network.
- [1:13:34] [CORE] [INFO] [MOTD] -
- [1:13:34] [CORE] [INFO] [MOTD] -     Our rules are relaxed and unobtrusive,
- [1:13:34] [CORE] [INFO] [MOTD] -       we also encourage ideas and fun.
- [1:13:34] [CORE] [INFO] [MOTD] -
- [1:13:34] [CORE] [INFO] [MOTD] -       This is the main IRC Network for:
- [1:13:34] [CORE] [INFO] [MOTD] -     - SmallURL, SmallImage & SmallPaste
- [1:13:34] [CORE] [INFO] [MOTD] -         Support Channel: #SmallURL
- [1:13:34] [CORE] [INFO] [MOTD] -
- [1:13:34] [CORE] [INFO] [MOTD] -     - TMFKSOFT @ YouTube.com/TMFKSOFT
- [1:13:34] [CORE] [INFO] [MOTD] -         Personal Channel: #TMFKSOFT
- [1:13:34] [CORE] [INFO] [MOTD] -
- [1:13:34] [CORE] [INFO] [MOTD] -  Find your account panel and the site @
- [1:13:34] [CORE] [INFO] [MOTD] -           http://smallirc.in/
- [1:13:34] [CORE] [INFO] [MOTD] -
- [1:13:34] [CORE] [INFO] [MOTD] - =========8<---- Support ---------------------
- [1:13:34] [CORE] [INFO] [MOTD] -     You can gain network support in #help
- [1:13:34] [CORE] [INFO] [MOTD] -    If you require BNC related support join
- [1:13:34] [CORE] [INFO] [MOTD] -              #BNC or #help
- [1:13:34] [CORE] [INFO] [MOTD] -
- [1:13:34] [CORE] [INFO] [MOTD] - =========8<---- Commands --------------------
- [1:13:34] [CORE] [INFO] [MOTD] -     NickServ commands:
- [1:13:34] [CORE] [INFO] [MOTD] -         /ns register pa
- [1:13:34] [IRC] [INFO] [<] ssword email
- [1:13:34] [CORE] [INFO] [MOTD] -         /ns identify [nick] password
- [1:13:34] [CORE] [INFO] [MOTD] -         /ns set item value
- [1:13:34] [CORE] [INFO] [MOTD] -     ChanServ commands:
- [1:13:34] [CORE] [INFO] [MOTD] -         /cs register #chan desc
- [1:13:34] [CORE] [INFO] [MOTD] -         /cs access #chan add/del nick level
- [1:13:34] [CORE] [INFO] [MOTD] -         /cs set #chan item value
- [1:13:34] [CORE] [INFO] [MOTD] -     Network commands:
- [1:13:34] [CORE] [INFO] [MOTD] -         /identify - Short identify command
- [1:13:34] [CORE] [INFO] [MOTD] -         /rules - Shows network rules/tos
- [1:13:34] [CORE] [INFO] [MOTD] -         /botmotd - Bot related rules.
- [1:13:34] [CORE] [INFO] [MOTD] -
- [1:13:34] [CORE] [INFO] [MOTD] - =========8<---- Cut Here --------------------
- [1:13:34] [IRC] [INFO] [<] :ipv4.doctor.smallirc.in 376 mewtwo :End of /MOTD command.
- [1:13:34] [IRC] [INFO] [<] :mewtwo MODE mewtwo :+iwx
- [1:13:34] [IRC] [INFO] [<] :NickServ!services@smallirc.in NOTICE mewtwo :Hey there! You know you can safe guard your nick by registering it? /msg NickServ REGISTER password email
- [1:13:38] [IRC] [INFO] [<] :mewtwo!mew@smallirc-E92608AC.thomas-edwards.me JOIN :#ruur
- [1:13:38] [IRC] [INFO] [<] :ipv4.doctor.smallirc.in 332 mewtwo #ruur :/ A strange place to be / enjoy your stay /
- [1:13:38] [IRC] [INFO] [<] :ipv4.doctor.smallirc.in 333 mewtwo #ruur theholder 1419765711
- [1:13:38] [IRC] [INFO] [<] :ipv4.doctor.smallirc.in 353 mewtwo = #ruur :mewtwo &DG &Sorch &Fudgie &GLaDOS xBytez
- [1:13:38] [IRC] [INFO] [<] :ipv4.doctor.smallirc.in 366 mewtwo #ruur :End of /NAMES list.
- [1:13:38] [IRC] [INFO] [<] :ipv4.doctor.smallirc.in NOTICE mewtwo :*** You were forced to join #ruur
- [1:13:42] [CORE] [INFO] [#ruur] <Fudgie> @user Fudgie
- [1:13:42] [TestJS] [INFO] I have a message!
- [1:13:42] [CORE] [INFO] [#ruur] <mewtwo> Attempting to get user Fudgie
- [1:13:42] [CORE] [INFO] [#ruur] <mewtwo> nick = Fudgie
- [1:13:42] [CORE] [INFO] [#ruur] <mewtwo> username = thomas
- [1:13:42] [CORE] [INFO] [#ruur] <mewtwo> host = smallirc-B5B4C1B.thomas-edwards.me
- [1:13:42] [CORE] [INFO] [#ruur] <mewtwo> realname = 
- [1:13:42] [IRC] [INFO] [<] :ipv4.doctor.smallirc.in 311 mewtwo Fudgie thomas smallirc-B5B4C1B.thomas-edwards.me * :Thomas Edwards (ZNC)
- [1:13:42] [IRC] [INFO] [<] :ipv4.doctor.smallirc.in 307 mewtwo Fudgie :is identified for this nick
- [1:13:42] [IRC] [INFO] [<] :ipv4.doctor.smallirc.in 319 mewtwo Fudgie :~#Lobby ~#SIRC-Client ~#logging ~#SmallChat ~#SmallURL ~#Plugins %#The_Middleman #InferMC &#ruur ~#247fixes ~#help
- [1:13:42] [IRC] [INFO] [<] :ipv4.doctor.smallirc.in 312 mewtwo Fudgie ipv4.doctor.smallirc.in :The Doctor, SmallIRC
- [1:13:42] [IRC] [INFO] [<] :ipv4.doctor.smallirc.in 313 mewtwo Fudgie :is a Network Administrator
- [1:13:42] [IRC] [INFO] [<] :ipv4.doctor.smallirc.in 310 mewtwo Fudgie :is available for help.
- [1:13:42] [IRC] [INFO] [<] :ipv4.doctor.smallirc.in 330 mewtwo Fudgie Fudgie :is logged in as
- [1:13:42] [IRC] [INFO] [<] :ipv4.doctor.smallirc.in 317 mewtwo Fudgie 1 1440085526 :seconds idle, signon time
- [1:13:42] [IRC] [INFO] [<] :ipv4.doctor.smallirc.in 318 mewtwo Fudgie :End of /WHOIS list.
- [1:13:44] [CORE] [INFO] [#ruur] <Fudgie> @user Fudgie
- [1:13:44] [TestJS] [INFO] I have a message!
- [1:13:44] [CORE] [INFO] [#ruur] <mewtwo> Attempting to get user Fudgie
- [1:13:44] [CORE] [INFO] [#ruur] <mewtwo> nick = Fudgie
- [1:13:44] [CORE] [INFO] [#ruur] <mewtwo> username = thomas
- [1:13:44] [CORE] [INFO] [#ruur] <mewtwo> host = smallirc-B5B4C1B.thomas-edwards.me
- [1:13:44] [CORE] [INFO] [#ruur] <mewtwo> realname = Thomas Edwards (ZNC)
- [1:14:2] [CORE] [INFO] [#ruur] <Fudgie> Although as soon as it joins this channel it will whois all users
- [1:14:11] [CORE] [INFO] [#ruur] <Fudgie> All that it doesn't know that is.
- [1:14:25] [CORE] [INFO] [#ruur] <Fudgie> @user *!*@*
- [1:14:25] [TestJS] [INFO] I have a message!
- [1:14:25] [CORE] [INFO] [#ruur] <mewtwo> Attempting to get user *!*@*
- [1:14:25] [CORE] [INFO] [#ruur] <mewtwo> nick = Fudgie
- [1:14:25] [CORE] [INFO] [#ruur] <mewtwo> username = thomas
- [1:14:25] [CORE] [INFO] [#ruur] <mewtwo> host = smallirc-B5B4C1B.thomas-edwards.me
- [1:14:25] [CORE] [INFO] [#ruur] <mewtwo> realname = Thomas Edwards (ZNC)
- [1:14:37] [CORE] [INFO] [#ruur] <Fudgie> @user *!thomas@*
- [1:14:37] [TestJS] [INFO] I have a message!
- [1:14:37] [CORE] [INFO] [#ruur] <mewtwo> Attempting to get user *!thomas@*
- [1:14:37] [CORE] [INFO] [#ruur] <mewtwo> nick = Fudgie
- [1:14:37] [CORE] [INFO] [#ruur] <mewtwo> username = thomas
- [1:14:37] [CORE] [INFO] [#ruur] <mewtwo> host = smallirc-B5B4C1B.thomas-edwards.me
- [1:14:37] [CORE] [INFO] [#ruur] <mewtwo> realname = Thomas Edwards (ZNC)
-] [INFO] I have a message!
- [1:8:45] [CORE] [INFO] [#ruur] <mewtwo> Attempting to get user DG
- [1:8:45] [CORE] [INFO] [#ruur] <mewtwo> nick = DG
- [1:8:45] [CORE] [INFO] [#ruur] <mewtwo> username = *
- [1:8:45] [CORE] [INFO] [#ruur] <mewtwo> host = cakeforce.co.uk
- [1:9:6] [CORE] [INFO] [#ruur] <DG> c:
- [1:9:18] [CORE] [INFO] [#ruur] <Fudgie> Idk why it failed to get your username
- [1:9:20] [CORE] [INFO] [#ruur] <Fudgie> which is just DG
- [1:9:23] [CORE] [INFO] [#ruur] <Fudgie> @user DG
- [1:9:23] [TestJS] [INFO] I have a message!
- [1:9:23] [CORE] [INFO] [#ruur] <mewtwo> Attempting to get user DG
- [1:9:23] [CORE] [INFO] [#ruur] <mewtwo> nick = DG
- [1:9:23] [CORE] [INFO] [#ruur] <mewtwo> username = *
- [1:9:23] [CORE] [INFO] [#ruur] <mewtwo> host = cakeforce.co.uk
- [1:9:32] [CORE] [INFO] [#ruur] <Fudgie> @user *!thomas@*
- [1:9:32] [TestJS] [INFO] I have a message!
- [1:9:32] [CORE] [INFO] [#ruur] <mewtwo> Attempting to get user *!thomas@*
- [1:9:32] [CORE] [INFO] [#ruur] <mewtwo> nick = Fudgie
- [1:9:32] [CORE] [INFO] [#ruur] <mewtwo> username = thomas
- [1:9:32] [CORE] [INFO] [#ruur] <mewtwo> host = smallirc-B5B4C1B.thomas-edwards.me
- [1:9:38] [CORE] [INFO] [#ruur] <Fudgie> Not too shabby
+ [1:33:9] [CORE] [INFO] MewTwo bot starting up!
+ [1:33:9] [CORE] [INFO] Loading plugins
+ [1:33:9] [CORE] [INFO] Enabling Plugins
+ [1:33:9] [TestJS] [INFO] Loading plugin
+ [1:33:9] [IRC] [INFO] Connecting to irc.smallirc.in:6667
+ [1:33:9] [IRC] [INFO] Socket Connected!
+ [1:33:9] [IRC] [INFO] [<] :ipv4.doctor.smallirc.in NOTICE AUTH :*** Looking up your hostname...
+ [1:33:9] [IRC] [INFO] [<] :ipv4.doctor.smallirc.in NOTICE AUTH :*** Found your hostname (cached)
+ [1:33:9] [IRC] [INFO] [<] :ipv4.doctor.smallirc.in 001 mewtwo :Welcome to the SmallIRC IRC Network mewtwo!mew@london.thomas-edwards.me
+ [1:33:9] [IRC] [INFO] [<] :ipv4.doctor.smallirc.in 002 mewtwo :Your host is ipv4.doctor.smallirc.in, running version Unreal3.2.10.4
+ [1:33:9] [IRC] [INFO] [<] :ipv4.doctor.smallirc.in 003 mewtwo :This server was created Sun Mar 1 2015 at 18:00:09 EST
+ [1:33:9] [IRC] [INFO] [<] :ipv4.doctor.smallirc.in 004 mewtwo ipv4.doctor.smallirc.in Unreal3.2.10.4 iowghraAsORTVSxNCWqBzvdHtGpI lvhopsmntikrRcaqOALQbSeIKVfMCuzNTGjZ
+ [1:33:9] [IRC] [INFO] [<] :ipv4.doctor.smallirc.in 005 mewtwo UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=200 CHANLIMIT=#:200 MAXLIST=b:60,e:60,I:60 NICKLEN=30 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 MAXTARGETS=20 :are supported by this server
+ [1:33:9] [IRC] [INFO] [<] :ipv4.doctor.smallirc.in 005 mewtwo WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(qaohv)~&@%+ CHANMODES=beI,kfL,lj,psmntirRcOAQKVCuzNSMTGZ NETWORK=SmallIRC CASEMAPPING=ascii EXTBAN=~,qjncrRaT ELIST=MNUCT STATUSMSG=~&@%+ :are supported by this server
+ [1:33:9] [IRC] [INFO] [<] :ipv4.doctor.smallirc.in 005 mewtwo EXCEPTS INVEX CMDS=KNOCK,MAP,DCCALLOW,USERIP,STARTTLS :are supported by this server
+ [1:33:9] [IRC] [INFO] [<] :ipv4.doctor.smallirc.in 251 mewtwo :There are 1 users and 30 invisible on 3 servers
+ [1:33:9] [IRC] [INFO] [<] :ipv4.doctor.smallirc.in 252 mewtwo 15 :operator(s) online
+ [1:33:9] [IRC] [INFO] [<] :ipv4.doctor.smallirc.in 254 mewtwo 34 :channels formed
+ [1:33:9] [IRC] [INFO] [<] :ipv4.doctor.smallirc.in 255 mewtwo :I have 15 clients and 2 servers
+ [1:33:9] [IRC] [INFO] [<] :ipv4.doctor.smallirc.in 265 mewtwo 15 280 :Current local users 15, max 280
+ [1:33:9] [IRC] [INFO] [<] :ipv4.doctor.smallirc.in 266 mewtwo 31 292 :Current global users 31, max 292
+ [1:33:9] [IRC] [INFO] [<] :ipv4.doctor.smallirc.in 375 mewtwo :- ipv4.doctor.smallirc.in Message of the Day -
+ [1:33:9] [CORE] [INFO] [MOTD] - 1/3/2015 17:54
+ [1:33:9] [CORE] [INFO] [MOTD] -      _________.______________________
+ [1:33:9] [CORE] [INFO] [MOTD] -     /   _____/|   \______   \_   ___ \
+ [1:33:9] [CORE] [INFO] [MOTD] -     \_____  \ |   ||       _/    \  \/
+ [1:33:9] [CORE] [INFO] [MOTD] -     /        \|   ||    |   \     \____
+ [1:33:9] [CORE] [INFO] [MOTD] -    /_______  /|___||____|_  /\______  /
+ [1:33:9] [CORE] [INFO] [MOTD] -            \/             \/        \/
+ [1:33:9] [CORE] [INFO] [MOTD] -
+ [1:33:9] [CORE] [INFO] [MOTD] - =========8<---- SmallIRC --------------------
+ [1:33:9] [CORE] [INFO] [MOTD] -   Welcome to the SmallIRC Network, Feel free
+ [1:33:9] [CORE] [INFO] [MOTD] -  to relax and chat with your friends on this
+ [1:33:9] [CORE] [INFO] [MOTD] -                IRC network.
+ [1:33:9] [CORE] [INFO] [MOTD] -
+ [1:33:9] [CORE] [INFO] [MOTD] -     Our rules are relaxed and unobtrusive,
+ [1:33:9] [CORE] [INFO] [MOTD] -       we also encourage ideas and fun.
+ [1:33:9] [CORE] [INFO] [MOTD] -
+ [1:33:9] [CORE] [INFO] [MOTD] -       This is the main IRC Network for:
+ [1:33:9] [CORE] [INFO] [MOTD] -     - SmallURL, SmallImage & SmallPaste
+ [1:33:9] [CORE] [INFO] [MOTD] -         Support Channel: #SmallURL
+ [1:33:9] [CORE] [INFO] [MOTD] -
+ [1:33:9] [CORE] [INFO] [MOTD] -     - TMFKSOFT @ YouTube.com/TMFKSOFT
+ [1:33:9] [CORE] [INFO] [MOTD] -         Personal Channel: #TMFKSOFT
+ [1:33:9] [CORE] [INFO] [MOTD] -
+ [1:33:9] [CORE] [INFO] [MOTD] -  Find your account panel and the site @
+ [1:33:9] [CORE] [INFO] [MOTD] -           http://smallirc.in/
+ [1:33:9] [CORE] [INFO] [MOTD] -
+ [1:33:9] [CORE] [INFO] [MOTD] - =========8<---- Support ---------------------
+ [1:33:9] [CORE] [INFO] [MOTD] -     You can gain network support in #help
+ [1:33:9] [CORE] [INFO] [MOTD] -    If you require BNC related support join
+ [1:33:9] [CORE] [INFO] [MOTD] -              #BNC or #help
+ [1:33:9] [CORE] [INFO] [MOTD] -
+ [1:33:9] [CORE] [INFO] [MOTD] - =========8<---- Commands --------------------
+ [1:33:9] [CORE] [INFO] [MOTD] -     NickServ commands:
+ [1:33:9] [CORE] [INFO] [MOTD] -         /ns register pa
+ [1:33:9] [IRC] [INFO] [<] ssword email
+ [1:33:9] [CORE] [INFO] [MOTD] -         /ns identify [nick] password
+ [1:33:9] [CORE] [INFO] [MOTD] -         /ns set item value
+ [1:33:9] [CORE] [INFO] [MOTD] -     ChanServ commands:
+ [1:33:9] [CORE] [INFO] [MOTD] -         /cs register #chan desc
+ [1:33:9] [CORE] [INFO] [MOTD] -         /cs access #chan add/del nick level
+ [1:33:9] [CORE] [INFO] [MOTD] -         /cs set #chan item value
+ [1:33:9] [CORE] [INFO] [MOTD] -     Network commands:
+ [1:33:9] [CORE] [INFO] [MOTD] -         /identify - Short identify command
+ [1:33:9] [CORE] [INFO] [MOTD] -         /rules - Shows network rules/tos
+ [1:33:9] [CORE] [INFO] [MOTD] -         /botmotd - Bot related rules.
+ [1:33:9] [CORE] [INFO] [MOTD] -
+ [1:33:9] [CORE] [INFO] [MOTD] - =========8<---- Cut Here --------------------
+ [1:33:9] [IRC] [INFO] [<] :ipv4.doctor.smallirc.in 376 mewtwo :End of /MOTD command.
+ [1:33:9] [IRC] [INFO] [<] :mewtwo MODE mewtwo :+iwx
+ [1:33:9] [IRC] [INFO] [<] :NickServ!services@smallirc.in NOTICE mewtwo :Hey there! You know you can safe guard your nick by registering it? /msg NickServ REGISTER password email
+ [1:33:13] [IRC] [INFO] [<] :mewtwo!mew@smallirc-E92608AC.thomas-edwards.me JOIN :#tmfksoft
+ [1:33:13] [CORE] [INFO] [#tmfksoft] Topic is 'WHERES THE BLACKSMITH!? -  Press B to Blow. - http://pastebin.com/ZyfM4XhD - <13~Sidara> My vagina...hurts so much - <~Lexi> gives my heart a boner - <~Sidara> the only perm a guy has is his sperms - Stream: https://beam.pro/Thomas | Thomas is now old'
+ [1:33:13] [CORE] [INFO] [#tmfksoft] Set by therock247uk
+ [1:33:13] [IRC] [INFO] [<] :ipv4.doctor.smallirc.in 353 mewtwo @ #tmfksoft :mewtwo ~Blizzardo1 ~DG gbyers_ ~gbyers %mew ~Sorch ~Dead-i %Anaconda ~Fudgie &GLaDOS ~therock247uk ~christian ~macwolf74 GLolol ~LukeT ~xBytez
+ [1:33:13] [IRC] [INFO] [<] :ipv4.doctor.smallirc.in 366 mewtwo #tmfksoft :End of /NAMES list.
+ [1:33:13] [IRC] [INFO] [<] :ipv4.doctor.smallirc.in NOTICE mewtwo :*** You were forced to join #tmfksoft
+ [1:33:13] [IRC] [INFO] [<] :ipv4.doctor.smallirc.in 311 mewtwo therock247uk therock247 247fixes.com * :therock247uk
+ [1:33:13] [IRC] [INFO] [<] :ipv4.doctor.smallirc.in 307 mewtwo therock247uk :is identified for this nick
+ [1:33:13] [IRC] [INFO] [<] :ipv4.doctor.smallirc.in 319 mewtwo therock247uk :~#logging ~#tmfksoft &#SIRC-Client ~#help
+ [1:33:13] [IRC] [INFO] [<] :ipv4.doctor.smallirc.in 312 mewtwo therock247uk ipv4.doctor.smallirc.in :The Doctor, SmallIRC
+ [1:33:13] [IRC] [INFO] [<] :ipv4.doctor.smallirc.in 313 mewtwo therock247uk :is a Network Administrator
+ [1:33:13] [IRC] [INFO] [<] :ipv4.doctor.smallirc.in 310 mewtwo therock247uk :is available for help.
+ [1:33:13] [IRC] [INFO] [<] :ipv4.doctor.smallirc.in 330 mewtwo therock247uk therock247uk :is logged in as
+ [1:33:13] [IRC] [INFO] [<] :ipv4.doctor.smallirc.in 317 mewtwo therock247uk 100114 1440085505 :seconds idle, signon time
+ [1:33:13] [IRC] [INFO] [<] :ipv4.doctor.smallirc.in 318 mewtwo therock247uk :End of /WHOIS list.
+ [1:33:18] [CORE] [INFO] [#tmfksoft] <Fudgie> Lets see
+ [1:33:18] [IRC] [INFO] [<] :ipv4.doctor.smallirc.in 311 mewtwo Fudgie thomas smallirc-B5B4C1B.thomas-edwards.me * :Thomas Edwards (ZNC)
+ [1:33:18] [IRC] [INFO] [<] :ipv4.doctor.smallirc.in 307 mewtwo Fudgie :is identified for this nick
+ [1:33:18] [IRC] [INFO] [<] :ipv4.doctor.smallirc.in 319 mewtwo Fudgie :~#Lobby ~#tmfksoft ~#SIRC-Client ~#logging ~#SmallChat ~#SmallURL ~#Plugins %#The_Middleman #InferMC &#ruur ~#247fixes ~#help
+ [1:33:18] [IRC] [INFO] [<] :ipv4.doctor.smallirc.in 312 mewtwo Fudgie ipv4.doctor.smallirc.in :The Doctor, SmallIRC
+ [1:33:18] [IRC] [INFO] [<] :ipv4.doctor.smallirc.in 313 mewtwo Fudgie :is a Network Administrator
+ [1:33:18] [IRC] [INFO] [<] :ipv4.doctor.smallirc.in 310 mewtwo Fudgie :is available for help.
+ [1:33:18] [IRC] [INFO] [<] :ipv4.doctor.smallirc.in 330 mewtwo Fudgie Fudgie :is logged in as
+ [1:33:18] [IRC] [INFO] [<] :ipv4.doctor.smallirc.in 317 mewtwo Fudgie 2 1440085526 :seconds idle, signon time
+ [1:33:18] [IRC] [INFO] [<] :ipv4.doctor.smallirc.in 318 mewtwo Fudgie :End of /WHOIS list.
+ [1:33:21] [CORE] [INFO] [#tmfksoft] <Fudgie> @chan #tmfksoft
+ [1:33:21] [TestJS] [INFO] I have a message!
+ [1:33:21] [CORE] [INFO] [#tmfksoft] <mewtwo> Attempting to get channel #tmfksoft
+ [1:33:21] [CORE] [INFO] [#tmfksoft] <mewtwo> name = #tmfksoft
+ [1:33:21] [CORE] [INFO] [#tmfksoft] <mewtwo> topic = WHERES THE BLACKSMITH!? -  Press B to Blow. - http://pastebin.com/ZyfM4XhD - <13~Sidara> My vagina...hurts so much - <~Lexi> gives my heart a boner - <~Sidara> the only perm a guy has is his sperms - Stream: https://beam.pro/Thomas | Thomas is now old
+ [1:33:21] [CORE] [INFO] [#tmfksoft] <mewtwo> topic setter = therock247uk!therock247@247fixes.com
+ [1:33:23] [CORE] [INFO] [#tmfksoft] <Fudgie> haha
+ [1:33:28] [CORE] [INFO] [#tmfksoft] <Fudgie> thats great
+ [1:33:37] [CORE] [INFO] [#tmfksoft] <Fudgie> It finds the topic setters info
+ [1:33:50] [CORE] [INFO] [#tmfksoft] <Fudgie> Assuming they're connected
+ [1:33:56] [IRC] [INFO] [<] :mewtwo!mew@smallirc-E92608AC.thomas-edwards.me JOIN :#ruur
+ [1:33:56] [CORE] [INFO] [#ruur] Topic is '/ A strange place to be / enjoy your stay /'
+ [1:33:56] [CORE] [INFO] [#ruur] Set by theholder
+ [1:33:56] [IRC] [INFO] [<] :ipv4.doctor.smallirc.in 353 mewtwo = #ruur :mewtwo mew &DG &Sorch &Fudgie &GLaDOS xBytez
+ [1:33:56] [IRC] [INFO] [<] :ipv4.doctor.smallirc.in 366 mewtwo #ruur :End of /NAMES list.
+ [1:33:56] [IRC] [INFO] [<] :ipv4.doctor.smallirc.in NOTICE mewtwo :*** You were forced to join #ruur
+ [1:33:57] [IRC] [INFO] [<] :ipv4.doctor.smallirc.in 401 mewtwo theholder :No such nick/channel
+ [1:33:57] [IRC] [INFO] [<] :ipv4.doctor.smallirc.in 318 mewtwo theholder :End of /WHOIS list.
+ [1:34:3] [CORE] [INFO] [#tmfksoft] <Fudgie> @chan #ruur
+ [1:34:3] [TestJS] [INFO] I have a message!
+ [1:34:3] [CORE] [INFO] [#tmfksoft] <mewtwo> Attempting to get channel #ruur
+ [1:34:3] [CORE] [INFO] [#tmfksoft] <mewtwo> name = #ruur
+ [1:34:3] [CORE] [INFO] [#tmfksoft] <mewtwo> topic = / A strange place to be / enjoy your stay /
+ [1:34:3] [CORE] [INFO] [#tmfksoft] <mewtwo> topic setter = theholder!*@*
+ [1:34:15] [CORE] [INFO] [#tmfksoft] <Fudgie> If they're not it shits out a universal mask
+ [1:34:16] [CORE] [INFO] [#tmfksoft] <Fudgie> :P
+ [1:34:51] [CORE] [INFO] [#ruur] <Fudgie> @chan #tmfksoft
+ [1:34:51] [TestJS] [INFO] I have a message!
+ [1:34:51] [CORE] [INFO] [#ruur] <mewtwo> Attempting to get channel #tmfksoft
+ [1:34:51] [CORE] [INFO] [#ruur] <mewtwo> name = #tmfksoft
+ [1:34:51] [CORE] [INFO] [#ruur] <mewtwo> topic = WHERES THE BLACKSMITH!? -  Press B to Blow. - http://pastebin.com/ZyfM4XhD - <13~Sidara> My vagina...hurts so much - <~Lexi> gives my heart a boner - <~Sidara> the only perm a guy has is his sperms - Stream: https://beam.pro/Thomas | Thomas is now old
+ [1:34:51] [CORE] [INFO] [#ruur] <mewtwo> topic setter = therock247uk!therock247@247fixes.com
+ [1:35:19] [CORE] [INFO] [#tmfksoft] <DG> thebolder
+ [1:35:20] [IRC] [INFO] [<] :ipv4.doctor.smallirc.in 311 mewtwo DG DG cakeforce.co.uk * :DG (S2 BNC)
+ [1:35:20] [IRC] [INFO] [<] :ipv4.doctor.smallirc.in 307 mewtwo DG :is identified for this nick
+ [1:35:20] [IRC] [INFO] [<] :ipv4.doctor.smallirc.in 319 mewtwo DG :~#cakebot #Plugins @#SmallChat ~#cakebot-control +#Lobby +#bnc ~#apple-bot &#247fixes +#help %#The_Middleman +#SmallURL &#ruur ~#cakeforce ~#tmfksoft ~#darkgamer
+ [1:35:20] [IRC] [INFO] [<] :ipv4.doctor.smallirc.in 312 mewtwo DG ipv6.rory.smallirc.in :Rory Williams, SmallIRC
+ [1:35:20] [IRC] [INFO] [<] :ipv4.doctor.smallirc.in 671 mewtwo DG :is using a Secure Connection
+ [1:35:20] [IRC] [INFO] [<] :ipv4.doctor.smallirc.in 330 mewtwo DG DG :is logged in as
+ [1:35:20] [IRC] [INFO] [<] :ipv4.doctor.smallirc.in 318 mewtwo DG :End of /WHOIS list.
+ [1:35:27] [CORE] [INFO] [#tmfksoft] <Fudgie> lold
+ [1:35:31] [CORE] [INFO] [#tmfksoft] <Fudgie> It just whois'd DG
+ [1:35:47] [CORE] [INFO] [#tmfksoft] <DG> cause it luvs me
+ [1:35:54] [CORE] [INFO] [#tmfksoft] <Fudgie> @user DG
+ [1:35:54] [TestJS] [INFO] I have a message!
+ [1:35:54] [CORE] [INFO] [#tmfksoft] <mewtwo> Attempting to get user DG
+ [1:35:54] [CORE] [INFO] [#tmfksoft] <mewtwo> nick = DG
+ [1:35:54] [CORE] [INFO] [#tmfksoft] <mewtwo> username = DG
+ [1:35:54] [CORE] [INFO] [#tmfksoft] <mewtwo> host = cakeforce.co.uk
+ [1:35:54] [CORE] [INFO] [#tmfksoft] <mewtwo> realname = DG (S2 BNC)
+ [1:36:5] [CORE] [INFO] [#tmfksoft] <Fudgie> @user DG!*@*
+ [1:36:5] [TestJS] [INFO] I have a message!
+ [1:36:5] [CORE] [INFO] [#tmfksoft] <mewtwo> Attempting to get user DG!*@*
+ [1:36:5] [CORE] [INFO] [#tmfksoft] <mewtwo> nick = DG
+ [1:36:5] [CORE] [INFO] [#tmfksoft] <mewtwo> username = DG
+ [1:36:5] [CORE] [INFO] [#tmfksoft] <mewtwo> host = cakeforce.co.uk
+ [1:36:5] [CORE] [INFO] [#tmfksoft] <mewtwo> realname = DG (S2 BNC)
+:23] [IRC] [INFO] [<] :ipv4.doctor.smallirc.in 319 mewtwo mew :%#tmfksoft
+ [1:18:23] [IRC] [INFO] [<] :ipv4.doctor.smallirc.in 312 mewtwo mew ipv6.rory.smallirc.in :Rory Williams, SmallIRC
+ [1:18:23] [IRC] [INFO] [<] :ipv4.doctor.smallirc.in 330 mewtwo mew mew :is logged in as
+ [1:18:23] [IRC] [INFO] [<] :ipv4.doctor.smallirc.in 318 mewtwo MEW :End of /WHOIS list.
+ [1:18:25] [CORE] [INFO] [#tmfksoft] <Fudgie> @user MEW
+ [1:18:25] [TestJS] [INFO] I have a message!
+ [1:18:25] [CORE] [INFO] [#tmfksoft] <mewtwo> Attempting to get user MEW
+ [1:18:25] [CORE] [INFO] [#tmfksoft] <mewtwo> nick = MEW
+ [1:18:25] [CORE] [INFO] [#tmfksoft] <mewtwo> username = cloudbot
+ [1:18:25] [CORE] [INFO] [#tmfksoft] <mewtwo> host = 4C3E5E39:1D6CBF57:E5F4F56D:IP
+ [1:18:25] [CORE] [INFO] [#tmfksoft] <mewtwo> realname = CloudBot - https://git.io/CloudBot
+ [1:18:28] [CORE] [INFO] [#tmfksoft] <Fudgie> leedle

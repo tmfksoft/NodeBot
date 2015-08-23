@@ -70,31 +70,53 @@ IRC = function(){
 				Events.invokePlugins("message",user,dest,message);
 				return true;
 			}
+			
+			// MOTD
 			if (ex[1] == "372") {
 				var message = ex.slice(3).join(" ").substr(1);
 				log.info("[MOTD] "+message);
 				return true;
 			}
+			
+			// WHOIS
 			if (ex[1] == "311") {
 				var nick = ex[3];
 				var u = this.getUser(nick);
+				u.nick = nick; // Whois corrects casing
 				u.username = ex[4];
 				u.host = ex[5];
 				u.realname = ex.slice(7).join(" ").substr(1);
+			}
+			
+			// TOPIC
+			if (ex[1] == "332") {
+				var ch = this.getChannel(ex[3],true);
+				ch.topic.text = ex.slice(4).join(" ").substr(1);
+				log.info("["+ex[3]+"] Topic is '"+ch.topic.text+"'");
+				return true;
+			}
+			if (ex[1] == "333") {
+				var ch = this.getChannel(ex[3],true);
+				ch.topic.setter = this.getUser(ex[4],true);
+				ch.topic.stamp = ex[5];
+				log.info("["+ex[3]+"] Set by "+ex[4]);
+				return true;
 			}
 		}
 		
 		return false;
 	}
-	this.getChannel = function(name){
+	this.getChannel = function(name,insert){
 		// Tries to get a channel if it fails it creates a new one.
 		for (var i in this.channels) {
 			if (this.channels[i].name.toLowerCase() == name.toLowerCase()) {
-				return channels[i];
+				return this.channels[i];
 			}
 		}
 		var n = new Channel();
 		n.name = name;
+		
+		if (typeof insert != "undefined" && insert) this.channels.push(n);
 		return n;
 	}
 	this.getUser = function(mask,insert){
@@ -189,7 +211,7 @@ IRC = function(){
 // Types.
 Channel = function(){
 	this.name = null;
-	this.topic = null;
+	this.topic = {"text":null,"setter":null,"stamp":null};
 	this.userlist = [];
 	this.modes = [];
 	this.bans = []; // Not in use yet.
@@ -202,6 +224,10 @@ User = function(){
 	this.realname = "";
 	this.channels = [];
 	this.modes = [];
+	
+	this.getMask = function(){
+		return this.nick+"!"+this.username+"@"+this.host;
+	}
 }
 Message = function(){
 	this.user = null; /* OfflineUser */
